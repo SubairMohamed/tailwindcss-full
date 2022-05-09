@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,31 @@
     <title>challenge Grid </title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <ul class="grid grid-cols-3 grid-rows-4 mt-5">
-        <li class="bg-gray-900 rounded-sm shadow-lg"><div class="h-24"></div></li>
-        <li class="bg-gray-900 rounded-sm shadow-lg"><div class="h-24"></div></li>
-        <li class="bg-gray-900 rounded-sm shadow-lg"><div class="h-24"></div></li>
-        <li class="bg-gray-900 rounded-sm shadow-lg"><div class="h-24"></div></li>
-        <li class="bg-gray-900 rounded-sm shadow-lg"><div class="h-24"></div></li>
-        <li class="bg-gray-900 rounded-sm shadow-lg"><div class="h-24"></div></li>
-        <li class="bg-gray-700 rounded-sm shadow-lg"><div class="h-24"></div></li>
+        <li class="col-span-1 bg-gray-900 rounded-sm shadow-lg text-white text-center">
+            <div class="h-14"></div>Header
+        </li>
+        <li class="col-span-2 bg-red-400 rounded-sm shadow-lg text-white text-center">
+            <div class="h-24"></div>Menu
+        </li>
+        <li class="col-span-3 row-span-2 bg-blue-700 rounded-sm shadow-lg text-white text-center">
+            <div class="h-24"></div>Hero
+        </li>
+        <li class="col-span-3 bg-violet-800 rounded-sm shadow-lg text-white text-center">
+            <div class="h-24"></div>Main
+        </li>
+        <li class="bg-teal-200 rounded-sm shadow-lg text-white text-center">
+            <div class="h-24"></div>Image
+        </li>
+        <li class="col-end-4 bg-emerald-500 rounded-sm shadow-lg text-white text-center">
+            <div class="h-24"></div>Extra
+        </li>
+        <li class="col-span-3 bg-amber-300 rounded-sm shadow-lg text-white text-center">
+            <div class="h-24"></div>Banner
+        </li>
     </ul>
 </body>
+
 </html>
