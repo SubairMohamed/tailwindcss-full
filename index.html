@@ -6,7 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwind css</title>
+    <!-- Tailwndcss Setup -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style type="text/tailwindcss">
+        .Card {
+          @apply mt-5 mx-5 shadow-lg p-5 rounded-lg bg-red-500 text-white sm:bg-blue-300
+        }
+        .pStyle{
+            @apply leading-8 font-thin underline decoration-solid underline-offset-8 capitalize text-center bg-[url('./images.jpg')] bg-no-repeat bg-cover bg-left bg-center
+        }
+        .btnStyle{
+            @apply bg-green-500 text-white mt-5 mb-7 mx-5 px-3 py-1 shadow-lg rounded-lg hover:bg-white hover:text-black border-2 border-green-500
+        }
+    </style>
 </head>
 
 <body>
@@ -15,7 +28,7 @@
         tailwind css
         class</h1>
     <p
-        class=" leading-8 font-thin underline decoration-solid underline-offset-8 capitalize text-center bg-[url('./images.jpg')] bg-no-repeat bg-cover bg-left bg-center">
+        class="pStyle">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et at ratione, dolorum consequuntur neque illum
         eligendi dignissimos quos quis omnis maxime repellat aut optio voluptatibus illo eaque officiis. Sequi aperiam
         consectetur harum distinctio, sed est magnam eum temporibus animi veritatis. Eligendi nihil odit beatae,
@@ -63,6 +76,17 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam optio ad sapiente doloribus non? Corrupti
         soluta dolorem quasi optio doloremque totam dignissimos at. Tempore molestias aut qui veniam rem veritatis!
     </div>
+
+<!-- Card -->
+<div class="Card">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Necessitatibus ipsam dolore nihil aliquam? Tempore. </p>
+</div>
+<button class="btnStyle">
+    Click Here
+</button>
+
+
+
 
 </body>
 
