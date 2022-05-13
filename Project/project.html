@@ -9,27 +9,34 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="bg-[url('./proj-Image/tv.jpg')] pt-12">
+    <header class="bg-[url('./proj-Image/image-header-sky.jpg')] pt-12 bg-cover bg-botton">
         <nav class="flex justify-between px-8">
-            <div id="logo">
-                <img src="./proj-Image/my-logo.png" alt="logo" class="bg-white">
+            <div id="logo" class="flex justify-center items-center">
+                <img src="./proj-Image/letter-s-32.png" alt="logo">
             </div>
             
-            <div id="navbar">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+            <div id="navbar" class="w-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
             </div>
         </nav>
 
-        <section id="showcase">
-            <div id="content">
-                <h1>WE ARE CREATIVES</h1>
+        <section id="showcase" class="px-8 flex justify-center items-center mt-24">
+            <div id="content" class="flex justify-center items-center flex-col">
+                <h1 class="text-white text-7xl text-center tracking-widest font-bold mb-8">WE ARE CREATIVES</h1>
                 <div>
-                    <img src="svg xmlns=http://www.w3.org/2000/svg" alt="arrow">
+                    <button class="bg-blue-400 text-white px-2 py-1 mb-1 rounded-lg hover:bg-white hover:text-blue-400 border-2 border-blue-400">Go Down!</button>
                 </div>
             </div>
         </section>
     </header>
+    <!-- header ends -->
+
+    <main>
+        <section id="About">
+
+        </section>
+    </main>
 </body>
 </html>
