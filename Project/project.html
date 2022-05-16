@@ -11,30 +11,40 @@
 </head>
 
 <body>
-    <header class="bg-[url('./proj-Image/image-header-sky.jpg')] pt-12 bg-cover bg-botton">
-        <nav class="flex justify-between px-8">
-            <div id="logo" class="flex justify-center items-center">
-                <img src="./proj-Image/letter-s-32.png" alt="logo">
-            </div>
-
-            <div id="navbar" class="w-10">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="white"
-                    stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-            </div>
-        </nav>
-
-        <section id="showcase" class="px-8 flex justify-center items-center mt-24">
-            <div id="content" class="flex justify-center items-center flex-col mb-3">
-                <h1 class="text-white text-7xl text-center tracking-widest font-bold mb-8">WE ARE CREATIVES</h1>
-                <div>
-                    <button
-                        class="bg-blue-400 text-white px-2 py-1 mb-1 rounded-lg hover:bg-white hover:text-blue-400 border-2 border-blue-400">Go
-                        Down!</button>
+    <header class="relative">
+        <img src="./proj-Image/image-header-sky.jpg" alt="" id="bg" class="sm:hidden">
+        <img src="./proj-Image/header-three.jpg" alt="bg-2" id="bg-2" class="hidden sm:block">
+        <div id="header" class="absolute top-0">
+            <nav class="flex justify-between px-8">
+                <div id="logo" class="flex justify-center items-center">
+                    <img src="./proj-Image/letter-s-32.png" alt="logo">
                 </div>
-            </div>
-        </section>
+
+                <div id="navbar" class="w-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:hidden" fill="none" viewBox="0 0 24 24"
+                        stroke="white" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <ul>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section id="showcase" class="px-8 flex justify-center items-center mt-24">
+                <div id="content" class="flex justify-center items-center flex-col mb-3">
+                    <h1 class="text-white text-7xl text-center tracking-widest font-bold mb-8">WE ARE CREATIVES</h1>
+                    <div>
+                        <button
+                            class="bg-blue-400 text-white px-2 py-1 mb-1 rounded-lg hover:bg-white hover:text-blue-400 border-2 border-blue-400">Go
+                            Down!</button>
+                    </div>
+                </div>
+            </section>
+        </div>
     </header>
     <!-- header ends -->
 
@@ -104,15 +114,18 @@
 
         <section id="Testimonials">
             <div class="bg-gray-200 pt-16 pb-10">
-                <h1 class="text-center text-gray-500 font-mono text-2xl tracking-wider uppercase mb-8">client Testimonials</h1>
-                
+                <h1 class="text-center text-gray-500 font-mono text-2xl tracking-wider uppercase mb-8">client
+                    Testimonials</h1>
+
                 <!-- card-1 -->
-                <div id="card-1" class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
+                <div id="card-1"
+                    class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
                     <div id="profile" class="mb-8">
                         <img class="rounded-full w-24 h-24" src="./proj-Image/managers-5.jpg" alt="managers-1">
                     </div>
                     <div id="contents" class="mb-4">
-                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">we put our trust in sunnyside and they delivered, making sure our needs were met and
+                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">we put our trust in
+                            sunnyside and they delivered, making sure our needs were met and
                             deadlines were always hit.</p>
                     </div>
                     <div id="title" class="mb-4">
@@ -120,15 +133,18 @@
                         <p class="text-gray-500 text-lg tracking-wide capitalize">marketing director</p>
                     </div>
                 </div>
-   
+
                 <!-- card-2 -->
-                <div id="card-2" class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
+                <div id="card-2"
+                    class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
                     <div id="profile-2" class="mb-8">
                         <img class="rounded-full w-24 h-24" src="./proj-Image/managers-1.jpg" alt="managers-1">
                     </div>
                     <div id="contents-2" class="mb-4">
-                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">sunnyside's enthusiam couple with their keen iterest in our brand's success made it a satisfying and enjoyable experiance.
-                            </p>
+                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">sunnyside's enthusiam
+                            couple with their keen iterest in our brand's success made it a satisfying and enjoyable
+                            experiance.
+                        </p>
                     </div>
                     <div id="title-2" class="mb-4">
                         <h3 class="font-bold font-mono text-xl mb-1 capitalize">thomas s.</h3>
@@ -136,14 +152,16 @@
                     </div>
                 </div>
 
-                   <!-- card-3 -->
-                   <div id="card-3" class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
+                <!-- card-3 -->
+                <div id="card-3"
+                    class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
                     <div id="profile-3" class="mb-8">
                         <img class="rounded-full w-24 h-24" src="./proj-Image/mangers-2.jpg" alt="managers-1">
                     </div>
                     <div id="contents-3" class="mb-4">
-                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">incredible end result! our sales increased over 400% when we worked with sunnyside. highly recommended! 
-                            </p>
+                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">incredible end result!
+                            our sales increased over 400% when we worked with sunnyside. highly recommended!
+                        </p>
                     </div>
                     <div id="title-3" class="mb-4">
                         <h3 class="font-bold font-mono text-xl mb-1 capitalize">jennie f.</h3>
@@ -153,23 +171,24 @@
 
             </div>
         </section>
- <!-- end Testimonials -->
+        <!-- end Testimonials -->
 
- <section id="projects" class="bg-gray-300 pb-12">
-     <h1 class="text-center text-2xl font-bold font-mono capitalize text-teal-900 pt-8">this is project's sunnyside</h1>
-     <div class="grid grid-cols-2 gap-y-2 px-8 py-10 bg-sky-200 mt-4 mx-16 rounded-xl mb-8">
-        <div><img src="./proj-Image/project-1 (1).jpg" alt="project 1"></div>
-        <div><img src="./proj-Image/project-2 (4).jpg" alt="project 2"></div>
-        <div><img src="./proj-Image/project-3 (2).jpg" alt="project 3"></div>
-        <div><img src="./proj-Image/project-4(3).jpg" alt="project 4"></div>
-     </div>
- </section>
+        <section id="projects" class="bg-gray-300 pb-12">
+            <h1 class="text-center text-2xl font-bold font-mono capitalize text-teal-900 pt-8">this is project's
+                sunnyside</h1>
+            <div class="grid grid-cols-2 gap-y-2 px-8 py-10 bg-sky-200 mt-4 mx-16 rounded-xl mb-8">
+                <div><img src="./proj-Image/project-1 (1).jpg" alt="project 1"></div>
+                <div><img src="./proj-Image/project-2 (4).jpg" alt="project 2"></div>
+                <div><img src="./proj-Image/project-3 (2).jpg" alt="project 3"></div>
+                <div><img src="./proj-Image/project-4(3).jpg" alt="project 4"></div>
+            </div>
+        </section>
 
     </main>
     <!-- end main -->
 
     <footer class="bg-green-500 py-12 px-12 text-center">
-            <h1 class="text-4xl font-bold text-teal-900 mb-10">sunnyside</h1>
+        <h1 class="text-4xl font-bold text-teal-900 mb-10">sunnyside</h1>
         <ul class="flex text-teal-800 font-bold justify-around px-20 tracking-wide">
             <li>About</li>
             <li>services</li>
