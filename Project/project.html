@@ -15,7 +15,7 @@
         <img src="./proj-Image/image-header-sky.jpg" alt="" id="bg" class="sm:hidden">
         <img src="./proj-Image/header-large.jpg" alt="bg-2" id="bg-2" class="hidden sm:block">
 
-        <div id="header" class="absolute top-0 w-full">
+        <div id="wrap-header" class="absolute top-0 w-full">
             <nav class="flex justify-between px-8">
                 <div id="logo" class="flex justify-center items-center">
                     <img src="./proj-Image/letter-s-32.png" alt="logo">
@@ -36,14 +36,14 @@
             </nav>
 
             <section id="showcase" class="px-8 flex justify-center items-center mt-24">
-                    <div id="content" class="flex justify-center items-center flex-col mb-3">
-                        <h1 class="text-white text-6xl text-center tracking-widest font-bold mb-4">WE ARE CREATIVES</h1>
-                        <div>
-                            <button
-                                class="bg-blue-400 text-white px-2 py-1 mb-1 rounded-lg hover:bg-white hover:text-blue-400 border-2 border-blue-400">Go
-                                Down!</button>
-                        </div>
+                <div id="content" class="flex justify-center items-center flex-col mb-3">
+                    <h1 class="text-white text-7xl text-center tracking-widest font-bold mb-4">WE ARE CREATIVES</h1>
+                    <div>
+                        <button
+                            class="bg-blue-400 text-white px-2 py-1 mb-1 rounded-lg hover:bg-white hover:text-blue-400 border-2 border-blue-400">Go
+                            Down!</button>
                     </div>
+                </div>
             </section>
         </div>
     </header>
@@ -51,22 +51,25 @@
 
     <main>
         <section id="About">
-            <div id="transform" class="md:grid grid-cols-2">
+            <div id="wrap-transform" class="md:grid grid-cols-2">
                 <div class="md:order-last">
                     <img src="./proj-Image/pexels-pixabay-87626.jpg" alt="transform image">
                 </div>
                 <div class="md:flex md:justify-center md:items-center">
-                   <div class="px-8 text-center pt-12 pb-14 md:max w-lg">
-                    <h1 class="font-bold text-4xl md:text-5xl md:text-left mb-4 md:mb-5 tracking-wider">Transform your brand
-                    </h1>
-                    <p class="text-xl font-semibold text-slate-600 mb-4 md:mb-5">we are a full-service creative agency
-                        specializing
-                        in helping
-                        brands grow fast.
-                        Engage your clients through compelling visuals that do most of the marketing for you.</p>
-                    <h3 class="font-bold text-xl uppercase border-b-4 border-green-300 inline rounded-lg">learn more
-                    </h3>
-                   </div>
+                    <div class="px-8 text-center pt-12 pb-14 md:max w-lg">
+                        <h1 class="font-bold text-4xl md:text-5xl md:text-left mb-4 md:mb-5 tracking-wider">
+                            Transform
+                            your brand
+                        </h1>
+                        <p class="text-xl font-semibold text-slate-600 mb-4 md:mb-5">we are a full-service creative
+                            agency
+                            specializing
+                            in helping
+                            brands grow fast.
+                            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                        <h3 class="font-bold text-xl uppercase border-b-4 border-green-300 inline rounded-lg">learn more
+                        </h3>
+                    </div>
                 </div>
             </div>
             <!-- end transform -->
@@ -77,13 +80,16 @@
                 </div>
                 <div class="md:flex md:justify-center md:items-center">
                     <div class="px-8 text-center pt-12 pb-14 md:max w-lg">
-                        <h1 class="font-bold text-4xl mb-4 tracking-wider capitalize">stand out to the right audience</h1>
-                    <p class="text-xl font-semibold text-slate-600 mb-4 capitalize">using a collaborative formula of
-                        designers.
-                        researchers, photographers, videographers.and copywriters, we'll build and extends your brands
-                        in digital places.</p>
-                    <h3 class="font-bold text-xl uppercase border-b-4 border-yellow-600 inline rounded-lg">learn more
-                    </h3>
+                        <h1 class="font-bold text-4xl mb-4 tracking-wider capitalize">stand out to the right audience
+                        </h1>
+                        <p class="text-xl font-semibold text-slate-600 mb-4 capitalize">using a collaborative formula of
+                            designers.
+                            researchers, photographers, videographers.and copywriters, we'll build and extends your
+                            brands
+                            in digital places.</p>
+                        <h3 class="font-bold text-xl uppercase border-b-4 border-yellow-600 inline rounded-lg">learn
+                            more
+                        </h3>
                     </div>
                 </div>
             </div>
@@ -91,13 +97,17 @@
         <!-- end About -->
 
         <section id="services" class="md:flex">
-            <div id="graphic design" class="relative">
+            <div id="wrap-graphic-design" class="relative">
                 <div>
                     <img src="./proj-Image/services.jpg" alt="graphic design">
                 </div>
-                <div class="absolute bottom-8 md:bottom-4 px-8 md:px-16 text-center md:justify-center md:max-w-md sm:max-w-sm">
-                    <h1 class="text-4xl mb-4 md:text-2xl md:mb-2 md:text-right sm:text-right text-center font-bold font-mono text-teal-900 pr-28">graphic design</h1>
-                    <p class="text-teal-900 font-bold md:text-sm sm:text-left">great design makes you memorable. we deliver
+                <div
+                    class="absolute bottom-8 md:bottom-4 px-8 md:px-16 text-center md:justify-center md:max-w-md sm:max-w-sm">
+                    <h1
+                        class="text-4xl mb-4 md:text-2xl md:mb-2 md:text-right sm:text-right text-center font-bold font-mono text-teal-900 pr-28">
+                        graphic design</h1>
+                    <p class="text-teal-900 font-bold md:text-sm sm:text-left">great design makes you memorable. we
+                        deliver
                         artwork that underscores your
                         brand </p>
                 </div>
@@ -108,9 +118,13 @@
                 <div>
                     <img src="./proj-Image/services-3.jpg" alt="graphic design">
                 </div>
-                <div class="absolute bottom-8 md:bottom-4 px-8 md:px-16 text-center md:justify-center md:max-w-md sm:max-w-sm">
-                    <h1 class="text-4xl mb-4 md:text-2xl md:mb-2 md:text-right sm:text-right text-center font-bold font-mono text-teal-900 pr-28">Video Graphic</h1>
-                    <p class="text-teal-900 font-bold md:text-sm sm:text-left">great design makes you memorable. we deliver
+                <div
+                    class="absolute bottom-8 md:bottom-4 px-8 md:px-16 text-center md:justify-center md:max-w-md sm:max-w-sm">
+                    <h1
+                        class="text-4xl mb-4 md:text-2xl md:mb-2 md:text-right sm:text-right text-center font-bold font-mono text-teal-900 pr-28">
+                        Video Graphic</h1>
+                    <p class="text-teal-900 font-bold md:text-sm sm:text-left">great design makes you memorable. we
+                        deliver
                         artwork that underscores your
                         brand </p>
                 </div>
@@ -119,59 +133,64 @@
         <!-- end services -->
 
         <section id="Testimonials">
-            <div class="bg-gray-200 pt-16 pb-10">
+            <div class="bg-gray-200 pt-16 pb-10 ">
                 <h1 class="text-center text-gray-500 font-mono text-2xl tracking-wider uppercase mb-8">client
                     Testimonials</h1>
 
                 <!-- card-1 -->
-                <div id="card-1"
-                    class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
-                    <div id="profile" class="mb-8">
-                        <img class="rounded-full w-24 h-24" src="./proj-Image/managers-5.jpg" alt="managers-1">
+                <div id="wrap" class="md:flex">
+                    <div id="card-1"
+                        class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
+                        <div id="profile" class="mb-8">
+                            <img class="rounded-full w-24 h-24" src="./proj-Image/managers-5.jpg" alt="managers-1">
+                        </div>
+                        <div id="contents" class="mb-4">
+                            <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">we put our trust
+                                in
+                                sunnyside and they delivered, making sure our needs were met and
+                                deadlines were always hit.</p>
+                        </div>
+                        <div id="title" class="mb-4">
+                            <h3 class="font-bold font-mono text-xl mb-1 capitalize">john R.</h3>
+                            <p class="text-gray-500 text-lg tracking-wide capitalize">marketing director</p>
+                        </div>
                     </div>
-                    <div id="contents" class="mb-4">
-                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">we put our trust in
-                            sunnyside and they delivered, making sure our needs were met and
-                            deadlines were always hit.</p>
-                    </div>
-                    <div id="title" class="mb-4">
-                        <h3 class="font-bold font-mono text-xl mb-1 capitalize">john R.</h3>
-                        <p class="text-gray-500 text-lg tracking-wide capitalize">marketing director</p>
-                    </div>
-                </div>
 
-                <!-- card-2 -->
-                <div id="card-2"
-                    class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
-                    <div id="profile-2" class="mb-8">
-                        <img class="rounded-full w-24 h-24" src="./proj-Image/managers-1.jpg" alt="managers-1">
+                    <!-- card-2 -->
+                    <div id="card-2"
+                        class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
+                        <div id="profile-2" class="mb-8">
+                            <img class="rounded-full w-24 h-24" src="./proj-Image/managers-1.jpg" alt="managers-1">
+                        </div>
+                        <div id="contents-2" class="mb-4">
+                            <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">sunnyside's
+                                enthusiam
+                                couple with their keen iterest in our brand's success made it a satisfying and enjoyable
+                                experiance.
+                            </p>
+                        </div>
+                        <div id="title-2" class="mb-4">
+                            <h3 class="font-bold font-mono text-xl mb-1 capitalize">thomas s.</h3>
+                            <p class="text-gray-500 text-lg tracking-wide capitalize">chief operating officer</p>
+                        </div>
                     </div>
-                    <div id="contents-2" class="mb-4">
-                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">sunnyside's enthusiam
-                            couple with their keen iterest in our brand's success made it a satisfying and enjoyable
-                            experiance.
-                        </p>
-                    </div>
-                    <div id="title-2" class="mb-4">
-                        <h3 class="font-bold font-mono text-xl mb-1 capitalize">thomas s.</h3>
-                        <p class="text-gray-500 text-lg tracking-wide capitalize">chief operating officer</p>
-                    </div>
-                </div>
 
-                <!-- card-3 -->
-                <div id="card-3"
-                    class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
-                    <div id="profile-3" class="mb-8">
-                        <img class="rounded-full w-24 h-24" src="./proj-Image/mangers-2.jpg" alt="managers-1">
-                    </div>
-                    <div id="contents-3" class="mb-4">
-                        <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">incredible end result!
-                            our sales increased over 400% when we worked with sunnyside. highly recommended!
-                        </p>
-                    </div>
-                    <div id="title-3" class="mb-4">
-                        <h3 class="font-bold font-mono text-xl mb-1 capitalize">jennie f.</h3>
-                        <p class="text-gray-500 text-lg tracking-wide capitalize">bussiness owner</p>
+                    <!-- card-3 -->
+                    <div id="card-3"
+                        class="mt-4 flex flex-col items-center px-10 text-center mt-4 bg-white py-8 mx-4 rounded-xl">
+                        <div id="profile-3" class="mb-8">
+                            <img class="rounded-full w-24 h-24" src="./proj-Image/mangers-2.jpg" alt="managers-1">
+                        </div>
+                        <div id="contents-3" class="mb-4">
+                            <p class="text-gray-500 font-semibold font-mono tracking-wide capitalize">incredible end
+                                result!
+                                our sales increased over 400% when we worked with sunnyside. highly recommended!
+                            </p>
+                        </div>
+                        <div id="title-3" class="mb-4">
+                            <h3 class="font-bold font-mono text-xl mb-1 capitalize">jennie f.</h3>
+                            <p class="text-gray-500 text-lg tracking-wide capitalize">bussiness owner</p>
+                        </div>
                     </div>
                 </div>
 
@@ -182,7 +201,8 @@
         <section id="projects" class="bg-gray-300 pb-12">
             <h1 class="text-center text-2xl font-bold font-mono capitalize text-teal-900 pt-8">this is project's
                 sunnyside</h1>
-            <div class="grid grid-cols-2 gap-y-2 px-8 py-10 bg-sky-200 mt-4 mx-16 rounded-xl mb-8">
+            <div
+                class="grid grid-cols-2 md:grid-cols-4 gap-2 px-8 md:px-32 py-10 bg-sky-200 mt-4 mx-16 rounded-xl mb-8">
                 <div><img src="./proj-Image/project-1 (1).jpg" alt="project 1"></div>
                 <div><img src="./proj-Image/project-2 (4).jpg" alt="project 2"></div>
                 <div><img src="./proj-Image/project-3 (2).jpg" alt="project 3"></div>
@@ -193,18 +213,18 @@
     </main>
     <!-- end main -->
 
-    <footer class="bg-green-500 py-12 px-12 text-center">
+    <footer class="bg-green-500 py-12 px-12 text-center md:flex flex-col items-center justify-center">
         <h1 class="text-4xl font-bold text-teal-900 mb-10">sunnyside</h1>
         <ul class="flex text-teal-800 font-bold justify-around px-20 tracking-wide">
-            <li>About</li>
-            <li>services</li>
-            <li>Projects</li>
+            <li class="md:mx-4">About</li>
+            <li class="md:mx-4">services</li>
+            <li class="md:mx-4">Projects</li>
         </ul>
         <div class="flex justify-around px-28 mt-12">
-            <img src="./proj-Image/facebook.png" alt="facebook">
-            <img src="./proj-Image/instagram.png" alt="instagram">
-            <img src="./proj-Image/twitter.png" alt="twitter">
-            <img src="./proj-Image/pinterest.png" alt="pinterest">
+            <img src="./proj-Image/facebook.png" alt="facebook" class="md:mx-4">
+            <img src="./proj-Image/instagram.png" alt="instagram" class="md:mx-4">
+            <img src="./proj-Image/twitter.png" alt="twitter" class="md:mx-4">
+            <img src="./proj-Image/pinterest.png" alt="pinterest" class="md:mx-4">
         </div>
     </footer>
 </body>
